@@ -1,6 +1,16 @@
 ﻿@page "/projects"
+@using BlazorBootstrap
 
 <PageTitle>Projects</PageTitle>
 
-<h1>Projects</h1>
+<div style="margin-top:2%;margin-left:3%">
+    <Carousel ShowIndicators="true" ShowPreviousNextControls="false" Autoplay="CarouselAutoPlay.StartOnPageLoad">
+        <CarouselItem Active="true" Interval="5000">
+            <ASPresentation.Pages.MyProjects.SMARTSProject />
+        </CarouselItem>
+        <CarouselItem Interval="5000">
+            <ASPresentation.Pages.MyProjects.CEP />
+        </CarouselItem>
+    </Carousel>
+</div>
 

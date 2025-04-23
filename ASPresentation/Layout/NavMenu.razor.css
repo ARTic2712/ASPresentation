@@ -57,12 +57,16 @@
 
 .nav-item ::deep a.active {
     background-color: rgba(255,255,255,0.37);
-    color: white;
+    color:aquamarine;
+}
+
+.active span {
+    color: aquamarine;
 }
 
 .nav-item ::deep a:hover {
     background-color: rgba(255,255,255,0.1);
-    color: white;
+    color:aquamarine;
 }
 .asback {
     background-color: black !important;

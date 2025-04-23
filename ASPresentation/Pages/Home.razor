@@ -1,11 +1,23 @@
 ﻿@page "/"
-
-<div class="d-inline-block" style="vertical-align: top; margin-left:5%; width:45%">
-    <h2 style="color:aquamarine">@YearsOfExp+</h2><h4> years of experience</h4>
-</div>
-<div class="w-25 d-inline-block" style="vertical-align: top; margin-left:5%;width:45%">
-    <h2 style="color:aquamarine">C#/.NET </h2><h4> Developer</h4>
-</div>
+<table>
+    <tr>
+        <div class="d-inline-block" style="vertical-align: top; margin-left:5%; width:45%">
+            <h2 class="header-color">@YearsOfExp+</h2><h4 class="maincolor"> years of experience</h4>
+        </div>
+        <div class="d-inline-block" style="vertical-align: top; margin-left:5%;width:45%">
+            <h2 class="header-color">C#/.NET </h2><h4 class="maincolor"> Developer</h4>
+        </div>
+    </tr>
+    <tr>
+        <div style="vertical-align: top; margin-left:5%;margin-top:100px; width:90%">
+            <h2 class="header-color"> Experienced .NET Developer </h2> 
+            <h4 class="maincolor">
+                with over 8 years of expertise in managing all phases of development, from concept through deployment.
+                Adept at full-stack web development, proficient in multiple programming languages and technologies, and skilled in leading teams and projects.
+            </h4>
+        </div>
+    </tr>
+</table>
 @code{
     private short YearsOfExp => (short)((DateTime.Now - (new DateTime(2016, 7, 1))).TotalDays / 365.25);
 }

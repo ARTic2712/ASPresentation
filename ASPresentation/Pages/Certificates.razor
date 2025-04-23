@@ -1,0 +1,38 @@
+﻿@page "/certificates"
+
+<PageTitle>Certificates</PageTitle>
+<div>
+    <table style="margin-top:5%">
+        <tr>            
+            <td> 
+                <a href="@AzureFundamentalsURI" target="_blank">
+                    <i class="fa-brands fa-windows fa-4x d-inline-block header-color"></i>
+                </a>
+            </td>
+            <td>
+                <a href="@AzureFundamentalsURI" target="_blank" >
+                    <h3 class="d-inline-block maincolor" style="margin-left:5%">Microsoft Certified: Azure Fundamentals</h3>
+                </a>
+            </td>
+            
+        </tr>
+        <tr>            
+            <td> 
+                <a href="@AzureASPAPIURI" target="_blank" style="margin-top:10%">
+                    <i class="fa-brands fa-windows fa-4x d-inline-block header-color"></i>
+                </a>
+            </td>
+            <td>
+                <a href="@AzureASPAPIURI" target="_blank" style="margin-top:10%">
+                    <h3 class="d-inline-block maincolor" style="margin-left:5%">Microsoft Applied Skills: Develop an ASP.NET Core web app that consumes an API</h3>
+                </a>    
+            </td>     
+        </tr>
+    </table>
+</div>
+
+@code{
+    private string AzureFundamentalsURI = "https://learn.microsoft.com/en-us/users/artsemshumski-7947/credentials/43652636db5dd3cc?ref=https%3A%2F%2Fwww.linkedin.com%2F";
+    private string AzureASPAPIURI = "https://learn.microsoft.com/en-us/users/artsemshumski-7947/credentials/ef1cbc5e72418c82?ref=https%3A%2F%2Fwww.linkedin.com%2F";
+
+}

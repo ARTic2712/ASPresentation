@@ -135,3 +135,10 @@ span {
     color:aquamarine;
     aspect-ratio: 1 / 1;
 }
+.header-color {
+    color: aquamarine !important;
+}
+
+.maincolor{
+    color:white;
+}
