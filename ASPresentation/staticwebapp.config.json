@@ -2,5 +2,9 @@
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": [ "/_framework/*", "/css/*" ]
+  },
+  "mimeTypes": {
+    ".png": "image/png",
+    ".jpg": "image/jpeg"
   }
 }
